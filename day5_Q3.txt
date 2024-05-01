@@ -1,0 +1,16 @@
+// the formula's answer (x+y)*2
+
+#include <stdio.h>
+void main(){
+    int x,y;
+    printf("Enter the value of: x");
+    scanf("%d",&x);
+    printf("Enter the value of: y");
+    scanf("%d",&y);
+    int ans;
+    ans = (x+y)*2;
+    printf("%d",ans);
+    
+    
+    
+}
